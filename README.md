@@ -51,23 +51,3 @@ Si el backend corre en otro puerto o en otra maquina, crea un archivo
 VITE_API_URL=http://localhost:3000
 ```
 
-## Como subir esto al repositorio del equipo
-
-Desde la raiz de este proyecto:
-
-```
-git checkout -b feature/modulo-evaluaciones-dashboard develop
-git add backend frontend README.md
-git commit -m "feat(evaluaciones,dashboard): implementacion base de los modulos 1 y 2"
-git push -u origin feature/modulo-evaluaciones-dashboard
-```
-
-Luego se abre el Pull Request hacia `develop` desde GitHub, con
-`Closes #<numero del issue correspondiente>` en la descripcion.
-
-## Pendiente para el Sprint 2
-
-- Reemplazar el almacenamiento en memoria por una base de datos real.
-- Aplicar los mockups de alta fidelidad de Eduardo a estas pantallas.
-- Sumar el modulo 4 (rediseño y evidencia de mejora) y el modulo 5
-  (SCRUM) dentro del propio sistema.
