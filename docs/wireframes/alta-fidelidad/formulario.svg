@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1480" viewBox="0 0 1280 1480" font-family="Segoe UI, system-ui, sans-serif" role="img" aria-label="Alta fidelidad - Formulario de evaluación"><title>Alta fidelidad - Formulario de evaluación</title><defs><filter id="sh" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.10"/></filter></defs><rect width="1280" height="1480" fill="#f4f6fb"/>
+<rect x="0" y="0" width="1280" height="60" rx="0" fill="#1f3864"/>
+<text x="32" y="37" font-size="18" fill="#fff" font-weight="700" text-anchor="start">Usability Test Dashboard</text>
+<text x="700" y="36" font-size="14" fill="#fff" font-weight="400" text-anchor="start">Dashboard</text>
+<text x="794.4" y="36" font-size="14" fill="#fff" font-weight="600" text-anchor="start">Registrar prueba</text>
+<rect x="794.4" y="44" width="121.6" height="3" rx="1" fill="#fff"/>
+<line x1="942.0" y1="20" x2="942.0" y2="40" stroke="#8ea0c4" stroke-width="1"/>
+<text x="966.0" y="36" font-size="14" fill="#fff" font-weight="400" text-anchor="start">Backlog</text>
+<text x="1045.2" y="36" font-size="14" fill="#fff" font-weight="400" text-anchor="start">Tablero</text>
+<text x="1124.4" y="36" font-size="14" fill="#fff" font-weight="400" text-anchor="start">Retrospectiva</text>
+<text x="240" y="118" font-size="26" fill="#1f3864" font-weight="700" text-anchor="start">Registrar prueba de usabilidad</text>
+<text x="240" y="144" font-size="14" fill="#4b5563" font-weight="400" text-anchor="start">Registra las tareas, tiempos, resultados y observaciones de una sesión.</text>
+<rect x="240" y="160" width="800" height="84" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+<rect x="240" y="160" width="5" height="84" rx="2" fill="#b91c1c"/>
+<text x="262" y="190" font-size="15" fill="#b91c1c" font-weight="700" text-anchor="start">⚠  Revisa 2 campos antes de guardar</text>
+<text x="262" y="218" font-size="14" fill="#b91c1c" font-weight="400" text-anchor="start">•  Nombre de la evaluación      •  Tarea 2: tiempo empleado</text>
+<circle cx="1064" cy="180" r="12" fill="#7c3aed"/>
+<text x="1064" y="185" font-size="13" fill="#fff" font-weight="700" text-anchor="middle">1</text>
+<rect x="240" y="264" width="800" height="1150" rx="10" fill="#fff" filter="url(#sh)"/>
+<text x="268" y="306" font-size="18" fill="#1f3864" font-weight="700" text-anchor="start">1. Datos generales</text>
+<text x="268" y="336" font-size="13" fill="#1f2937" font-weight="600" text-anchor="start">Nombre de la evaluación *</text>
+<rect x="268" y="344" width="744" height="38" rx="6" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+<text x="268" y="402" font-size="13" fill="#b91c1c" font-weight="600" text-anchor="start">Escribe un nombre para la evaluación</text>
+<circle cx="1022" cy="364" r="12" fill="#7c3aed"/>
+<text x="1022" y="369" font-size="13" fill="#fff" font-weight="700" text-anchor="middle">2</text>
+<text x="268" y="432" font-size="13" fill="#1f2937" font-weight="600" text-anchor="start">Pantalla evaluada *</text>
+<rect x="268" y="440" width="744" height="38" rx="6" fill="#fff" stroke="#868e9c" stroke-width="1"/>
+<text x="280" y="464" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">Formulario de registro</text>
+<text x="268" y="510" font-size="13" fill="#1f2937" font-weight="600" text-anchor="start">Evaluador *</text>
+<rect x="268" y="518" width="744" height="38" rx="6" fill="#fff" stroke="#868e9c" stroke-width="1"/>
+<text x="280" y="542" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">Juan Carvajal</text>
+<text x="268" y="602" font-size="18" fill="#1f3864" font-weight="700" text-anchor="start">2. Tareas evaluadas</text>
+<rect x="268" y="620" width="744" height="190" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="284" y="648" font-size="14" fill="#1f3864" font-weight="700" text-anchor="start">Tarea 1</text>
+<text x="996" y="648" font-size="13" fill="#b91c1c" font-weight="600" text-anchor="end">Quitar</text>
+<text x="284" y="672" font-size="13" fill="#1f2937" font-weight="600" text-anchor="start">Descripción *</text>
+<rect x="284" y="680" width="712" height="38" rx="6" fill="#fff" stroke="#868e9c" stroke-width="1"/>
+<text x="296" y="704" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">Encontrar el botón de guardar</text>
+<text x="284" y="744" font-size="13" fill="#1f2937" font-weight="600" text-anchor="start">Tiempo (segundos) *</text>
+<rect x="284" y="752" width="180" height="38" rx="6" fill="#fff" stroke="#868e9c" stroke-width="1"/>
+<text x="296" y="776" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">42</text>
+<text x="480" y="744" font-size="13" fill="#1f2937" font-weight="600" text-anchor="start">Errores</text>
+<rect x="480" y="752" width="140" height="38" rx="6" fill="#fff" stroke="#868e9c" stroke-width="1"/>
+<text x="492" y="776" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">1</text>
+<text x="648" y="744" font-size="13" fill="#1f2937" font-weight="600" text-anchor="start">Resultado *</text>
+<circle cx="660" cy="771" r="8" fill="#fff" stroke="#1f3864" stroke-width="2"/><circle cx="660" cy="771" r="4" fill="#1f3864"/>
+<text x="676" y="776" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">Completó</text>
+<circle cx="770" cy="771" r="8" fill="#fff" stroke="#868e9c" stroke-width="1.5"/>
+<text x="786" y="776" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">No completó</text>
+<rect x="268" y="828" width="744" height="190" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="284" y="856" font-size="14" fill="#1f3864" font-weight="700" text-anchor="start">Tarea 2</text>
+<text x="996" y="856" font-size="13" fill="#b91c1c" font-weight="600" text-anchor="end">Quitar</text>
+<text x="284" y="880" font-size="13" fill="#1f2937" font-weight="600" text-anchor="start">Descripción *</text>
+<rect x="284" y="888" width="712" height="38" rx="6" fill="#fff" stroke="#868e9c" stroke-width="1"/>
+<text x="296" y="912" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">Filtrar resultados por fecha</text>
+<text x="284" y="952" font-size="13" fill="#1f2937" font-weight="600" text-anchor="start">Tiempo (segundos) *</text>
+<rect x="284" y="960" width="180" height="38" rx="6" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+<text x="296" y="984" font-size="14" fill="#6b7280" font-weight="400" text-anchor="start">Ej: 30</text>
+<text x="284" y="1012" font-size="12" fill="#b91c1c" font-weight="600" text-anchor="start">El tiempo debe ser mayor a 0</text>
+<text x="480" y="952" font-size="13" fill="#1f2937" font-weight="600" text-anchor="start">Errores</text>
+<rect x="480" y="960" width="140" height="38" rx="6" fill="#fff" stroke="#868e9c" stroke-width="1"/>
+<text x="492" y="984" font-size="14" fill="#6b7280" font-weight="400" text-anchor="start">Ej: 0</text>
+<text x="648" y="952" font-size="13" fill="#1f2937" font-weight="600" text-anchor="start">Resultado *</text>
+<circle cx="660" cy="979" r="8" fill="#fff" stroke="#868e9c" stroke-width="1.5"/>
+<text x="676" y="984" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">Completó</text>
+<circle cx="770" cy="979" r="8" fill="#fff" stroke="#868e9c" stroke-width="1.5"/>
+<text x="786" y="984" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">No completó</text>
+<circle cx="1022" cy="979" r="12" fill="#7c3aed"/>
+<text x="1022" y="984" font-size="13" fill="#fff" font-weight="700" text-anchor="middle">3</text>
+<rect x="268" y="1034" width="150" height="36" rx="6" fill="#eef2ff" stroke="#1f3864" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="343.0" y="1057.0" font-size="13" fill="#1f3864" font-weight="600" text-anchor="middle">+ Agregar tarea</text>
+<text x="268" y="1110" font-size="18" fill="#1f3864" font-weight="700" text-anchor="start">3. Observaciones</text>
+<rect x="268" y="1128" width="744" height="130" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="284" y="1156" font-size="14" fill="#1f3864" font-weight="700" text-anchor="start">Observación 1</text>
+<text x="284" y="1180" font-size="13" fill="#1f2937" font-weight="600" text-anchor="start">Texto *</text>
+<rect x="284" y="1188" width="484" height="38" rx="6" fill="#fff" stroke="#868e9c" stroke-width="1"/>
+<text x="296" y="1212" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">El botón de guardar no se distingue del fondo</text>
+<text x="784" y="1180" font-size="13" fill="#1f2937" font-weight="600" text-anchor="start">Severidad</text>
+<rect x="784" y="1188" width="212" height="38" rx="6" fill="#fff" stroke="#868e9c" stroke-width="1"/>
+<text x="796" y="1212" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">Alta</text>
+<path d="M974 1204 l6 6 l6 -6" fill="none" stroke="#1f2937" stroke-width="1.6"/>
+<text x="784" y="1246" font-size="12" fill="#2563eb" font-weight="600" text-anchor="start">ⓘ Alta = impide completar la tarea</text>
+<circle cx="1022" cy="1206" r="12" fill="#7c3aed"/>
+<text x="1022" y="1211" font-size="13" fill="#fff" font-weight="700" text-anchor="middle">4</text>
+<rect x="268" y="1276" width="190" height="36" rx="6" fill="#eef2ff" stroke="#1f3864" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="363.0" y="1299.0" font-size="13" fill="#1f3864" font-weight="600" text-anchor="middle">+ Agregar observación</text>
+<rect x="268" y="1340" width="180" height="46" rx="8" fill="#1f3864"/>
+<text x="358.0" y="1368.0" font-size="15" fill="#fff" font-weight="600" text-anchor="middle">Registrar prueba</text>
+<rect x="464" y="1340" width="110" height="46" rx="8" fill="#fff" stroke="#1f3864" stroke-width="1"/>
+<text x="519.0" y="1368.0" font-size="15" fill="#1f3864" font-weight="600" text-anchor="middle">Limpiar</text>
+</svg>

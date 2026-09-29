@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1268" viewBox="0 0 1280 1268" font-family="Segoe UI, system-ui, sans-serif" role="img" aria-label="Alta fidelidad - Retrospectiva del sprint"><title>Alta fidelidad - Retrospectiva del sprint</title><defs><filter id="sh" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.10"/></filter></defs><rect width="1280" height="1268" fill="#f4f6fb"/>
+<rect x="0" y="0" width="1280" height="60" rx="0" fill="#1f3864"/>
+<text x="32" y="37" font-size="18" fill="#fff" font-weight="700" text-anchor="start">Usability Test Dashboard</text>
+<text x="700" y="36" font-size="14" fill="#fff" font-weight="400" text-anchor="start">Dashboard</text>
+<text x="794.4" y="36" font-size="14" fill="#fff" font-weight="400" text-anchor="start">Registrar prueba</text>
+<line x1="942.0" y1="20" x2="942.0" y2="40" stroke="#8ea0c4" stroke-width="1"/>
+<text x="966.0" y="36" font-size="14" fill="#fff" font-weight="400" text-anchor="start">Backlog</text>
+<text x="1045.2" y="36" font-size="14" fill="#fff" font-weight="400" text-anchor="start">Tablero</text>
+<text x="1124.4" y="36" font-size="14" fill="#fff" font-weight="600" text-anchor="start">Retrospectiva</text>
+<rect x="1124.4" y="44" width="98.8" height="3" rx="1" fill="#fff"/>
+<text x="160" y="118" font-size="26" fill="#1f3864" font-weight="700" text-anchor="start">Retrospectiva del sprint</text>
+<text x="160" y="144" font-size="14" fill="#4b5563" font-weight="400" text-anchor="start">Registra lo que salió bien, lo que se puede mejorar y las acciones para el siguiente sprint.</text>
+<rect x="160" y="160" width="960" height="798" rx="10" fill="#fff" filter="url(#sh)"/>
+<text x="180" y="194" font-size="17" fill="#1f3864" font-weight="700" text-anchor="start">Nueva retrospectiva</text>
+<text x="180" y="228" font-size="13" fill="#1f2937" font-weight="600" text-anchor="start">Sprint</text>
+<rect x="180" y="236" width="452.0" height="38" rx="6" fill="#fff" stroke="#868e9c" stroke-width="1"/>
+<text x="192" y="260" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">3</text>
+<text x="648.0" y="228" font-size="13" fill="#1f2937" font-weight="600" text-anchor="start">Facilitador</text>
+<rect x="648.0" y="236" width="452.0" height="38" rx="6" fill="#fff" stroke="#868e9c" stroke-width="1"/>
+<text x="660.0" y="260" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">Erick López (Scrum Master)</text>
+<rect x="180" y="300" width="920" height="166" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+<rect x="180" y="300" width="4" height="166" rx="2" fill="#15803d"/>
+<text x="198" y="326" font-size="14" fill="#1f3864" font-weight="700" text-anchor="start">¿Qué salió bien?</text>
+<text x="198" y="346" font-size="12" fill="#4b5563" font-weight="400" text-anchor="start">Prácticas o resultados que el equipo quiere mantener.</text>
+<rect x="198" y="360" width="810" height="38" rx="6" fill="#fff" stroke="#868e9c" stroke-width="1"/>
+<text x="210" y="384" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">El módulo SCRUM quedó funcionando en el sistema</text>
+<rect x="198" y="412" width="140" height="30" rx="6" fill="#eef2ff" stroke="#1f3864" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="268.0" y="432.0" font-size="13" fill="#1f3864" font-weight="600" text-anchor="middle">+ Agregar punto</text>
+<rect x="180" y="480" width="920" height="212" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+<rect x="180" y="480" width="4" height="212" rx="2" fill="#b45309"/>
+<text x="198" y="506" font-size="14" fill="#1f3864" font-weight="700" text-anchor="start">¿Qué se puede mejorar?</text>
+<text x="198" y="526" font-size="12" fill="#4b5563" font-weight="400" text-anchor="start">Problemas u obstáculos que aparecieron en el sprint.</text>
+<rect x="198" y="540" width="810" height="38" rx="6" fill="#fff" stroke="#868e9c" stroke-width="1"/>
+<text x="210" y="564" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">Los wireframes llegaron tarde al desarrollo</text>
+<text x="1082" y="564" font-size="13" fill="#b91c1c" font-weight="600" text-anchor="end">Quitar</text>
+<rect x="198" y="586" width="810" height="38" rx="6" fill="#fff" stroke="#868e9c" stroke-width="1"/>
+<text x="210" y="610" font-size="14" fill="#6b7280" font-weight="400" text-anchor="start">Escribe un punto…</text>
+<text x="1082" y="610" font-size="13" fill="#b91c1c" font-weight="600" text-anchor="end">Quitar</text>
+<rect x="198" y="638" width="140" height="30" rx="6" fill="#eef2ff" stroke="#1f3864" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="268.0" y="658.0" font-size="13" fill="#1f3864" font-weight="600" text-anchor="middle">+ Agregar punto</text>
+<rect x="180" y="706" width="920" height="166" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+<rect x="180" y="706" width="4" height="166" rx="2" fill="#2563eb"/>
+<text x="198" y="732" font-size="14" fill="#1f3864" font-weight="700" text-anchor="start">Acciones para el siguiente sprint</text>
+<text x="198" y="752" font-size="12" fill="#4b5563" font-weight="400" text-anchor="start">Compromisos concretos, con responsable si es posible.</text>
+<rect x="198" y="766" width="810" height="38" rx="6" fill="#fff" stroke="#868e9c" stroke-width="1"/>
+<text x="210" y="790" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">Revisar mockups antes de codificar (Eduardo)</text>
+<rect x="198" y="818" width="140" height="30" rx="6" fill="#eef2ff" stroke="#1f3864" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="268.0" y="838.0" font-size="13" fill="#1f3864" font-weight="600" text-anchor="middle">+ Agregar punto</text>
+<rect x="180" y="890" width="210" height="44" rx="8" fill="#1f3864"/>
+<text x="285.0" y="917.0" font-size="15" fill="#fff" font-weight="600" text-anchor="middle">Guardar retrospectiva</text>
+<circle cx="1144" cy="330" r="12" fill="#7c3aed"/>
+<text x="1144" y="335" font-size="13" fill="#fff" font-weight="700" text-anchor="middle">1</text>
+<text x="160" y="1008" font-size="20" fill="#1f3864" font-weight="700" text-anchor="start">Retrospectivas anteriores</text>
+<rect x="160" y="1028" width="960" height="200" rx="10" fill="#fff" filter="url(#sh)"/>
+<text x="180" y="1064" font-size="18" fill="#1f3864" font-weight="700" text-anchor="start">Sprint 2</text>
+<text x="270" y="1064" font-size="13" fill="#4b5563" font-weight="400" text-anchor="start">01/10/2026 · Facilitó Erick López</text>
+<text x="1100" y="1064" font-size="13" fill="#b91c1c" font-weight="600" text-anchor="end">Eliminar</text>
+<rect x="180.0" y="1088" width="4" height="110" rx="2" fill="#15803d"/>
+<text x="194.0" y="1108" font-size="13" fill="#1f3864" font-weight="700" text-anchor="start">¿Qué salió bien?</text>
+<text x="194.0" y="1136" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">•  Backend listo antes de lo planificado</text>
+<text x="194.0" y="1160" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">•  Demo funcional al cierre</text>
+<rect x="490.6666666666667" y="1088" width="4" height="110" rx="2" fill="#b45309"/>
+<text x="504.6666666666667" y="1108" font-size="13" fill="#1f3864" font-weight="700" text-anchor="start">¿Qué se puede mejorar?</text>
+<text x="504.6666666666667" y="1136" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">•  Los mockups llegaron tarde</text>
+<rect x="801.3333333333334" y="1088" width="4" height="110" rx="2" fill="#2563eb"/>
+<text x="815.3333333333334" y="1108" font-size="13" fill="#1f3864" font-weight="700" text-anchor="start">Acciones para el siguiente sprint</text>
+<text x="815.3333333333334" y="1136" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">•  Revisar mockups antes de codificar</text>
+<text x="815.3333333333334" y="1160" font-size="14" fill="#1f2937" font-weight="400" text-anchor="start">•  Daily de 10 minutos</text>
+<circle cx="1144" cy="1064" r="12" fill="#7c3aed"/>
+<text x="1144" y="1069" font-size="13" fill="#fff" font-weight="700" text-anchor="middle">2</text>
+</svg>

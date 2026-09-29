@@ -5,8 +5,8 @@ import { EvaluacionesService } from '../evaluaciones/evaluaciones.service';
 export class DashboardService {
   constructor(private readonly evaluaciones: EvaluacionesService) {}
 
-  obtenerMetricas() {
-    const pruebas = this.evaluaciones.listar();
+  async obtenerMetricas() {
+    const pruebas = await this.evaluaciones.listar();
 
     const todasLasTareas = pruebas.flatMap((p) => p.tareas);
     const todasLasObservaciones = pruebas.flatMap((p) => p.observaciones);

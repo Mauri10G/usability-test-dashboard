@@ -24,8 +24,8 @@ export class EvaluacionesController {
   }
 
   @Get(':id')
-  obtenerUna(@Param('id') id: string) {
-    const prueba = this.service.obtenerUna(id);
+  async obtenerUna(@Param('id') id: string) {
+    const prueba = await this.service.obtenerUna(id);
     if (!prueba) {
       throw new NotFoundException(`No existe una prueba con id ${id}`);
     }

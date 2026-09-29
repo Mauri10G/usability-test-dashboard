@@ -281,3 +281,358 @@ form select.invalid {
   background: #dcfce7;
   color: #166534;
 }
+
+/* ---- Modulo 5: SCRUM (backlog, tablero, retrospectiva) ---- */
+
+.navbar {
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.navbar nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 6px;
+}
+
+.nav-separator {
+  display: inline-block;
+  width: 1px;
+  height: 18px;
+  background: rgba(255, 255, 255, 0.4);
+  margin-left: 24px;
+}
+
+.page-wide {
+  max-width: 1200px;
+}
+
+.card-title,
+.section-title {
+  margin-top: 0;
+  color: #1f3864;
+}
+
+.section-title {
+  margin-top: 32px;
+}
+
+.muted {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+form textarea {
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  column-gap: 16px;
+}
+
+.button-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.secondary-btn {
+  margin-top: 24px;
+  background: white;
+  color: #1f3864;
+  border: 1px solid #1f3864;
+  border-radius: 8px;
+  padding: 11px 18px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: #1f3864;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 6px;
+  text-decoration: underline;
+}
+
+.link-btn-danger {
+  color: #b91c1c;
+}
+
+.badge {
+  white-space: nowrap;
+}
+
+.badge-por_hacer {
+  background: #e5e7eb;
+  color: #374151;
+}
+.badge-en_progreso {
+  background: #dbeafe;
+  color: #1e40af;
+}
+.badge-hecho {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.toolbar label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.toolbar select {
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  min-width: 200px;
+}
+
+.progress-summary {
+  font-size: 13px;
+  color: #374151;
+  min-width: 260px;
+}
+
+.kanban {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+@media (max-width: 800px) {
+  .kanban {
+    grid-template-columns: 1fr;
+  }
+}
+
+.kanban-col {
+  background: #e9edf5;
+  border-radius: 10px;
+  padding: 12px;
+  min-height: 240px;
+  border: 2px dashed transparent;
+  transition: border-color 0.15s;
+}
+
+.kanban-col-over {
+  border-color: #1f3864;
+  background: #dfe6f3;
+}
+
+.kanban-col-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  color: #1f3864;
+  padding: 4px 4px 10px;
+  margin-bottom: 8px;
+  border-bottom: 3px solid #9ca3af;
+}
+
+.kanban-col-header.estado-en_progreso {
+  border-bottom-color: #3b82f6;
+}
+.kanban-col-header.estado-hecho {
+  border-bottom-color: #22c55e;
+}
+
+.kanban-count {
+  font-size: 12px;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.kanban-empty {
+  text-align: center;
+  color: #6b7280;
+  font-size: 13px;
+  padding: 24px 0;
+}
+
+.kanban-card {
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.08);
+  cursor: grab;
+}
+
+.kanban-card.dragging {
+  opacity: 0.5;
+}
+
+.kanban-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #1f3864;
+}
+
+.sp-chip {
+  background: #eef2ff;
+  color: #1f3864;
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.kanban-card-title {
+  font-size: 14px;
+  margin: 8px 0;
+  line-height: 1.35;
+}
+
+.kanban-card-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.kanban-card-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.move-btn {
+  background: #f4f6fb;
+  border: 1px solid #d1d5db;
+  color: #1f3864;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.move-btn:last-child {
+  margin-left: auto;
+}
+
+.move-btn:hover,
+.move-btn:focus-visible {
+  border-color: #1f3864;
+}
+
+.retro-box {
+  border: 1px solid #e5e7eb;
+  border-left-width: 4px;
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin: 16px 0 0;
+}
+
+.retro-box legend {
+  font-weight: 700;
+  font-size: 14px;
+  color: #1f3864;
+  padding: 0 4px;
+}
+
+.retro-queSalioBien {
+  border-left-color: #22c55e;
+}
+.retro-queMejorar {
+  border-left-color: #f59e0b;
+}
+.retro-acciones {
+  border-left-color: #3b82f6;
+}
+
+.retro-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.retro-item input {
+  flex: 1;
+}
+
+.retro-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.retro-header .link-btn {
+  margin-left: auto;
+}
+
+.retro-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.retro-col {
+  border-left-width: 4px;
+  border-left-style: solid;
+  padding: 4px 12px;
+}
+
+.retro-col h4 {
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: #1f3864;
+}
+
+.retro-col ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 14px;
+}
