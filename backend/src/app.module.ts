@@ -1,8 +1,16 @@
 import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
 import { EvaluacionesModule } from './evaluaciones/evaluaciones.module';
 import { DashboardModule } from './dashboard/dashboard.module';
+import { ScrumModule } from './scrum/scrum.module';
+import { opcionesBaseDeDatos } from './database/database.config';
 
 @Module({
-  imports: [EvaluacionesModule, DashboardModule],
+  imports: [
+    TypeOrmModule.forRoot(opcionesBaseDeDatos()),
+    EvaluacionesModule,
+    DashboardModule,
+    ScrumModule,
+  ],
 })
 export class AppModule {}
