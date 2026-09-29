@@ -7,7 +7,7 @@ import { opcionesBaseDeDatos } from './database/database.config';
 
 @Module({
   imports: [
-    TypeOrmModule.forRoot(opcionesBaseDeDatos()),
+    TypeOrmModule.forRoot(opcionesBaseDeDatos('backend')),
     EvaluacionesModule,
     DashboardModule,
     ScrumModule,

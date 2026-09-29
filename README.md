@@ -43,13 +43,21 @@ npm run start:dev
 Queda escuchando en `http://localhost:3000`.
 
 Opcional: para cargar en la base de datos el backlog del Excel de
-planificacion (HU-01 a HU-10), en otra terminal dentro de `backend/`:
+planificacion (HU-01 a HU-10), **con el backend detenido**, dentro de
+`backend/`:
 
 ```
 npm run seed
 ```
 
-Se puede correr varias veces, no duplica historias.
+Se puede correr varias veces, no duplica historias. Si el backend esta
+encendido, el seed se niega a correr: con sql.js cada proceso tiene su
+propia copia de la base en memoria y el ultimo en guardar borraria los
+cambios del otro. Por la misma razon no se pueden levantar dos backends
+sobre el mismo archivo.
+
+Cada registro, cambio o eliminacion que llega por la API se escribe al
+archivo en el momento (opcion `autoSave` de TypeORM).
 
 La base de datos usa `sql.js` (SQLite compilado a WebAssembly), asi que
 `npm install` no necesita compilar nada ni aprobar scripts de instalacion.

@@ -145,3 +145,4 @@ vite.config.ts.timestamp-*
 # Base de datos SQLite local del backend
 backend/data/
 *.sqlite
+*.sqlite.lock
