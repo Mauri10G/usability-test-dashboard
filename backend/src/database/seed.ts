@@ -107,7 +107,7 @@ const backlog: HistoriaSemilla[] = [
 ];
 
 async function sembrar() {
-  const dataSource = new DataSource(opcionesBaseDeDatos());
+  const dataSource = new DataSource(opcionesBaseDeDatos('npm run seed'));
   await dataSource.initialize();
   const repo = dataSource.getRepository(HistoriaUsuarioEntity);
 
