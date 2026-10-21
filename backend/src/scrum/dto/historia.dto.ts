@@ -16,13 +16,13 @@ import {
 
 const MENSAJE_ESTADO = 'El estado debe ser por_hacer, en_progreso o hecho';
 const MENSAJE_SP = `Los story points deben ser uno de: ${STORY_POINTS_VALIDOS.join(', ')}`;
-const MENSAJE_BV = 'El business value debe ser un numero entero entre 1 y 10';
-const MENSAJE_SPRINT = 'El sprint debe ser un numero entero mayor a 0';
+const MENSAJE_BV = 'El business value debe ser un número entero entre 1 y 10';
+const MENSAJE_SPRINT = 'El sprint debe ser un número entero mayor a 0';
 
 export class CreateHistoriaDto {
   @IsString()
   @Matches(/^HU-\d{2,3}$/, {
-    message: 'El codigo debe tener el formato HU-01',
+    message: 'El código debe tener el formato HU-01',
   })
   codigo: string;
 
@@ -60,7 +60,7 @@ export class UpdateHistoriaDto {
   @IsOptional()
   @IsString()
   @Matches(/^HU-\d{2,3}$/, {
-    message: 'El codigo debe tener el formato HU-01',
+    message: 'El código debe tener el formato HU-01',
   })
   codigo?: string;
 

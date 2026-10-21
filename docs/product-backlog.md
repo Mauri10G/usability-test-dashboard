@@ -26,7 +26,12 @@ Mismo formato que la hoja **Backlog** del Excel de planificación
 | 8 | 5 | HU-07 | Visualizar tareas en un tablero para saber qué hacer y en qué estado están | 7 | 5 | 1.40 |
 | | | | **Total** | **59** | **29** | |
 
-HU-04 y HU-05 no aparecen en el Excel. Hay que confirmar con el PO si corresponden al módulo de IA, que quedó para el segundo parcial.
+HU-04 y HU-05 no aparecen en el Excel. En el Sprint 3 se definieron como las historias del módulo de IA y se cargaron en la base con `npm run seed`, junto con HU-11 a HU-14, para que los códigos que sugiere la IA no choquen con ellas. Falta que el PO las valide y las copie a la hoja Backlog del Excel.
+
+| HU | Nombre del Requisito | Business Value | Story Point | Cociente de Decisión |
+|---|---|---|---|---|
+| HU-04 | Obtener un resumen y la clasificación automática de las observaciones por categoría UX | 8 | 5 | 1.60 |
+| HU-05 | Recibir historias de usuario sugeridas cuando un problema de usabilidad se repite | 7 | 3 | 2.33 |
 
 ## 2. Historias propuestas a partir del diagnóstico heurístico
 

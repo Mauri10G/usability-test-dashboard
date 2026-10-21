@@ -6,7 +6,8 @@
     "build": "tsc -p tsconfig.build.json",
     "start": "node dist/main.js",
     "start:dev": "ts-node-dev --respawn --transpile-only src/main.ts",
-    "seed": "ts-node-dev --transpile-only src/database/seed.ts"
+    "seed": "ts-node-dev --transpile-only src/database/seed.ts",
+    "db:corregir": "ts-node-dev --transpile-only src/database/correcciones.ts"
   },
   "dependencies": {
     "@nestjs/common": "^10.4.0",
@@ -15,8 +16,10 @@
     "@nestjs/typeorm": "^10.0.2",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1",
+    "docx": "^9.13.0",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1",
+    "sharp": "^0.34.5",
     "sql.js": "^1.14.2",
     "typeorm": "^0.3.31"
   },

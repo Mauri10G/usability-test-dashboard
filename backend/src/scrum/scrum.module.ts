@@ -16,5 +16,6 @@ import { RetrospectivaEntity } from './entities/retrospectiva.entity';
   ],
   controllers: [HistoriasController, RetrospectivasController],
   providers: [HistoriasService, RetrospectivasService],
+  exports: [HistoriasService],
 })
 export class ScrumModule {}

@@ -6,11 +6,22 @@ explican debajo de cada imagen; no son parte de la interfaz.
 
 | Pantalla | Archivo | Estado |
 |---|---|---|
-| Dashboard de resultados | [`dashboard.svg`](./alta-fidelidad/dashboard.svg) | Propuesta: aplica las correcciones del diagnóstico, **falta implementarla** |
-| Formulario de evaluación | [`formulario.svg`](./alta-fidelidad/formulario.svg) | Propuesta: aplica las correcciones del diagnóstico, **falta implementarla** |
+| Dashboard de resultados | [`dashboard.svg`](./alta-fidelidad/dashboard.svg) | Implementada en `/` (Sprint 3) |
+| Formulario de evaluación | [`formulario.svg`](./alta-fidelidad/formulario.svg) | Implementada en `/registrar` (Sprint 3) |
 | Product Backlog | [`backlog.svg`](./alta-fidelidad/backlog.svg) | Implementada en `/backlog` |
 | Tablero del sprint | [`tablero.svg`](./alta-fidelidad/tablero.svg) | Implementada en `/tablero` |
 | Retrospectiva | [`retrospectiva.svg`](./alta-fidelidad/retrospectiva.svg) | Implementada en `/retrospectiva` |
+
+En el Sprint 3 los tokens quedaron como variables CSS en `:root` de `frontend/src/styles.css`.
+Diferencias entre los mockups y la implementación:
+
+- **Dashboard:** *Ver ›* abre el detalle de la prueba (`/pruebas/:id`), que permite eliminarla; la
+  edición sigue pendiente (ver [deuda técnica](../deuda-tecnica.md)). La ayuda de severidad es un
+  desplegable abierto por defecto.
+- **Formulario:** la severidad tampoco trae valor por defecto (mismo criterio que H5-1); la observación
+  es un área de texto de dos líneas porque es la entrada del análisis con IA; tras registrar se ofrece
+  *Registrar otra prueba de la misma pantalla* (H7-2).
+- Capturas de la implementación: [`../evidencia/sprint-3/`](../evidencia/sprint-3/).
 
 ## Tokens de diseño
 

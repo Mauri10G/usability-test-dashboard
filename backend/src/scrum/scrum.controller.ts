@@ -46,7 +46,7 @@ export class HistoriasController {
       filtroSprint = Number(sprint);
       if (!Number.isInteger(filtroSprint) || filtroSprint < 1) {
         throw new BadRequestException(
-          'El sprint debe ser un numero entero mayor a 0 o "backlog"',
+          'El sprint debe ser un número entero mayor a 0 o "backlog"',
         );
       }
     }

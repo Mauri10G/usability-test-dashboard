@@ -13,6 +13,7 @@ import {
 } from '../evaluaciones/entities/prueba.entity';
 import { HistoriaUsuarioEntity } from '../scrum/entities/historia-usuario.entity';
 import { RetrospectivaEntity } from '../scrum/entities/retrospectiva.entity';
+import { EvaluacionCapturaEntity } from '../ia/entities/evaluacion-captura.entity';
 
 // Base de datos SQLite en un archivo local. Se usa el driver sql.js
 // (SQLite compilado a WebAssembly) para que `npm install` funcione en
@@ -119,6 +120,7 @@ export function opcionesBaseDeDatos(proceso: string): DataSourceOptions {
       ObservacionEntity,
       HistoriaUsuarioEntity,
       RetrospectivaEntity,
+      EvaluacionCapturaEntity,
     ],
     // Crea y actualiza las tablas a partir de las entidades.
     // Suficiente para el alcance del proyecto; en produccion se usarian migraciones.

@@ -134,4 +134,10 @@ H1-2 (datos en memoria) ya quedó resuelto en el Sprint 2 al conectar SQLite.
 
 - Los hallazgos de mayor prioridad se convirtieron en historias nuevas (HU-11 a HU-14) en el [Product Backlog](./product-backlog.md).
 - Los [wireframes de alta fidelidad](./wireframes/alta-fidelidad.md) del Dashboard y del Formulario ya incorporan las correcciones de H1-1, H2-1, H2-2, H3-1, H5-1, H5-2, H6-1, H8-1 y H10-1.
+- En el **Sprint 3** se aplicaron los mockups al Dashboard y al Formulario reales. Quedan corregidos
+  H1-1, H1-3, H2-1, H2-2 y H2-3 (en esas dos pantallas), H3-2, H4-1, H4-2, H4-3, H5-1, H5-2, H5-3,
+  H6-1, H6-2, H7-1, H7-2, H8-1, H8-2, H9-1, H9-2 y H10-1. H3-1 queda parcial: la prueba se puede ver
+  y eliminar, pero todavía no editar. Detalle en [deuda técnica](./deuda-tecnica.md).
+- **Siguen faltando las capturas de evidencia** de cada hallazgo; la lista de qué capturar y cómo
+  levantar la versión evaluada está en la [deuda técnica](./deuda-tecnica.md#1-capturas-de-evidencia-del-diagnóstico-heurístico-pendiente).
 - Las pantallas nuevas del módulo SCRUM (Backlog, Tablero, Retrospectiva) se hicieron evitando estos mismos problemas: etiquetas asociadas a sus campos, textos con tildes, mensajes de validación en español, confirmación antes de eliminar y botón *Cancelar* en el formulario de edición.

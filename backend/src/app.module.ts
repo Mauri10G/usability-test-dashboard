@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { EvaluacionesModule } from './evaluaciones/evaluaciones.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { ScrumModule } from './scrum/scrum.module';
+import { IaModule } from './ia/ia.module';
 import { opcionesBaseDeDatos } from './database/database.config';
 
 @Module({
@@ -11,6 +12,7 @@ import { opcionesBaseDeDatos } from './database/database.config';
     EvaluacionesModule,
     DashboardModule,
     ScrumModule,
+    IaModule,
   ],
 })
 export class AppModule {}
