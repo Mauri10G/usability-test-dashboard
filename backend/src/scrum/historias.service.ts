@@ -114,7 +114,7 @@ export class HistoriasService {
 
   private async validarCodigoLibre(codigo: string) {
     if (await this.repo.existsBy({ codigo })) {
-      throw new ConflictException(`Ya existe una historia con codigo ${codigo}`);
+      throw new ConflictException(`Ya existe una historia con código ${codigo}`);
     }
   }
 

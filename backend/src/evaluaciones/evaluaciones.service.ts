@@ -2,7 +2,12 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { randomUUID } from 'crypto';
-import { Prueba, PruebaEntity } from './entities/prueba.entity';
+import {
+  ObservacionEntity,
+  Prueba,
+  PruebaEntity,
+  TareaEntity,
+} from './entities/prueba.entity';
 import { CreatePruebaDto } from './dto/create-prueba.dto';
 
 @Injectable()
@@ -50,6 +55,18 @@ export class EvaluacionesService {
       order: { tareas: { orden: 'ASC' }, observaciones: { orden: 'ASC' } },
     });
     return prueba ? this.aPrueba(prueba) : undefined;
+  }
+
+  // Borra las tareas y observaciones de forma explicita: con `remove` y
+  // cascade, TypeORM solo pone su pruebaId en NULL y quedan huerfanas.
+  async eliminar(id: string): Promise<boolean> {
+    if (!(await this.repo.existsBy({ id }))) return false;
+    await this.repo.manager.transaction(async (m) => {
+      await m.delete(TareaEntity, { prueba: { id } });
+      await m.delete(ObservacionEntity, { prueba: { id } });
+      await m.delete(PruebaEntity, { id });
+    });
+    return true;
   }
 
   // Devuelve exactamente la misma estructura que exponia la API antes de

@@ -7,7 +7,7 @@ import {
   Min,
 } from 'class-validator';
 
-const MENSAJE_SPRINT = 'El sprint debe ser un numero entero mayor a 0';
+const MENSAJE_SPRINT = 'El sprint debe ser un número entero mayor a 0';
 const MENSAJE_ITEM = 'Cada punto de la retrospectiva debe tener texto';
 
 export class CreateRetrospectivaDto {
@@ -16,7 +16,7 @@ export class CreateRetrospectivaDto {
   sprint: number;
 
   @IsString()
-  @IsNotEmpty({ message: 'Indica quien facilito la retrospectiva' })
+  @IsNotEmpty({ message: 'Indica quién facilitó la retrospectiva' })
   facilitador: string;
 
   @IsArray()
@@ -43,7 +43,7 @@ export class UpdateRetrospectivaDto {
 
   @IsOptional()
   @IsString()
-  @IsNotEmpty({ message: 'Indica quien facilito la retrospectiva' })
+  @IsNotEmpty({ message: 'Indica quién facilitó la retrospectiva' })
   facilitador?: string;
 
   @IsOptional()

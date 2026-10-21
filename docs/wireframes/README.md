@@ -9,5 +9,5 @@ Pantallas cubiertas: Dashboard de resultados (HU-02, HU-10), Formulario de evalu
 Product Backlog (HU-06), Tablero del sprint (HU-07) y Retrospectiva (HU-08).
 
 Los wireframes del Dashboard y del Formulario incorporan las correcciones del
-[diagnóstico heurístico](../diagnostico-heuristico.md) y todavía no están implementados.
+[diagnóstico heurístico](../diagnostico-heuristico.md) y se implementaron en el Sprint 3.
 Los del módulo SCRUM corresponden a las pantallas ya construidas.

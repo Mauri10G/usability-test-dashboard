@@ -207,7 +207,7 @@ export default function Backlog() {
       ) : errorCarga ? (
         <>
           <div className="alert alert-error">{errorCarga}</div>
-          <button className="add-btn" onClick={cargar}>
+          <button type="button" className="secondary-btn" onClick={cargar}>
             Reintentar
           </button>
         </>
